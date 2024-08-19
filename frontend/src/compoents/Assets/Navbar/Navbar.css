@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -12,3 +13,19 @@
   
  
 }
+=======
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px 2px black;
+}
+
+.nav-login-cart{
+ display: flex;
+ align-items: center;
+ gap:45px;
+  
+ 
+}
+>>>>>>> b587f82 (commit1)
