@@ -38,12 +38,16 @@ header {
 }
 
 .nav-links {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
+    gap: 2rem;
 }
 
 .nav-links li {
-    margin-right: 20px;
+	margin: 0 15px;
+    position: relative;
 }
 
 .user-actions a {
@@ -167,6 +171,31 @@ header {
     background-color: #fff;
     color: #333;
     border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4f4f4;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Footer */
